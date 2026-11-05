@@ -1,6 +1,6 @@
 # ACM Planning sürüm bilgisi: panel günde bir kez okur. Elle değiştirmeyin; tools/yayinla.sh yazar.
 surum=3.10.1
-indir=https://raw.githubusercontent.com/yunus11697/acmplanning-surum/main/kurulum/AcmPlanning_Setup_3.10.1.exe
+indir=https://github.com/yunus11697/Acmplanning-surum
 sha256=ae4851f245660651f7b12b3793e32ee8fb4560677e60b290b50f794c4222fb3c
-not=Kâğıttan oku'da yan ve üst/alt derz ayrı (7+5 de); panelden Güncelle ile kendiliğinden güncelleme; Yerleşim'de ayrı nesnedeki büküm çizgileri parçayla gelir.
+not=Kâğıttan oku'da yan ve üst/alt derz ayrı (7+5 de); Yerleşim'de ayrı nesnedeki büküm çizgileri parçayla gelir; güncelleme altyapısı yenilendi.
 tarih=2026-11-05

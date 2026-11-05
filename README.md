@@ -62,19 +62,20 @@ Tabela ve cephe kaplamasında kullanılan ACM (alüminyum kompozit) levhaların 
 
 ## 🔄 Güncelleme
 
-Program yeni sürümü kendisi bulur. Panel günde bir kez yalnız bu depodaki [`surum.txt`](surum.txt) dosyasını okur; yeni sürüm varsa panelin üstünde **Güncelle** şeridi çıkar.
-
-1. **Güncelle**'ye basın, sorulunca **Evet** deyin.
-2. Kurulum dosyası indirilir ve özeti (SHA-256) denetlenir; tutmazsa hiçbir şey çalıştırılmaz.
-3. Yönetici izni istenir, ardından CorelDRAW'u kapatmanız beklenir.
-4. CorelDRAW kapanınca yeni sürüm kendiliğinden kurulur ve CorelDRAW yeniden açılır. Lisansınız ve ayarlarınız silinmez.
+Program yeni sürümü kendisi bulur. Panel günde bir kez yalnız bu depodaki [`surum.txt`](surum.txt) dosyasını okur; yeni sürüm varsa panelin üstünde **İndir** şeridi çıkar ve bu sayfayı açar.
 
 > [!WARNING]
-> **Güncellemeye başlamadan önce CorelDRAW'daki açık dosyalarınızı kaydedin.** Kurulum için CorelDRAW kapatılır; kaydedilmemiş çalışma kaybolabilir.
+> **Güncellemeye başlamadan önce CorelDRAW'daki açık dosyalarınızı kaydedin ve CorelDRAW'u kapatın.** Kurulum CorelDRAW açıkken yapılamaz; kaydedilmemiş çalışma kaybolabilir.
 
+1. Açık dosyalarınızı kaydedip CorelDRAW'u kapatın.
+2. Yukarıdaki **Son sürümü indir** bağlantısından yeni kurulumu indirin. Tarayıcı uyarısı çıkarsa [Kurulum](#-kurulum) bölümündeki 2. adıma bakın.
+3. Kurulumu çalıştırın. Lisansınız ve ayarlarınız silinmez.
+4. CorelDRAW'u açın; yeni sürümün yenilikleri panelin üstünde bir kez gösterilir.
+
+- Kurulum dosyası dijital imzalı olunca panel güncellemeyi kendisi indirip kuracak (**Güncelle** düğmesi). O zamana kadar indirme bu sayfadan yapılır.
 - Denetim Ayarlar'dan kapatılabilir; **Şimdi denetle** düğmesiyle elle de bakılır.
-- 3.10.0 ve öncesinden güncellerken panel **İndir** der: dosyayı [`kurulum`](kurulum) klasöründen indirip elle kurun. Sonraki güncellemeler kendiliğinden olur.
-- Güncelleme hakkınızın süresi bittiyse panel, kurmadan önce yeni sürümün anahtarınızla açılmayacağını söyler.
+- Güncelleme hakkınızın süresi bittiyse panel, yeni sürümün anahtarınızla açılmayacağını söyler.
+- Yeni sürümde de çizim, ölçü, kesim ve teklifleri kullanmadan önce kendiniz kontrol edin.
 
 ---
 
@@ -105,7 +106,7 @@ Program yeni sürümü kendisi bulur. Panel günde bir kez yalnız bu depodaki [
 ### 🆕 Son sürümler
 
 <!-- yeni-surum: tools/yayinla.sh yeni sürüm satırını bunun altına ekler -->
-- **3.10.1** (2026-11-05): Panelden **Güncelle** ile kendiliğinden güncelleme: yeni sürüm sorulur, indirilip doğrulanır, CorelDRAW kapanınca kurulur ve CorelDRAW yeniden açılır. Kâğıttan oku'da yan ve üst/alt derz ayrı (7+5 gibi iki katlı derz de). Yerleşim'de ayrı nesnedeki büküm çizgileri parçayla birlikte gelir.
+- **3.10.1** (2026-11-05): Güncelleme altyapısı: panel yeni sürümü bildirir; kurulum imzalı olunca indirip doğrulayacak ve CorelDRAW kapanınca kendisi kuracak. Kâğıttan oku'da yan ve üst/alt derz ayrı (7+5 gibi iki katlı derz de). Yerleşim'de ayrı nesnedeki büküm çizgileri parçayla birlikte gelir.
 - **3.10.0** ★: Kâğıttan oku'da Kesim'deki gibi iki derz sütunu: yan derz ve üst/alt derz. Yapay zekâ kenarlardaki derz yazılarını ayrı okur, Düzelt/Denetle ikisini ayrı denetler; "Listeye ekle" ikisini Kesim'e ayrı yazar.
 
 ### 3.9: Render, Desen, Ters büküm
@@ -236,7 +237,7 @@ Program yeni sürümü kendisi bulur. Panel günde bir kez yalnız bu depodaki [
 **ACM Planning** is a CorelDRAW add-on for aluminium composite (ACM) panels: unfolds with V-grooves, cutting optimisation, nesting with an offcut store, live 3D folding, realistic render, perforation patterns, reading size lists from a photo, Excel take-off and quotes. The program runs in Turkish or English.
 
 - **Install:** download the latest `AcmPlanning_Setup_X.Y.Z.exe` from the [`kurulum`](kurulum) folder and run it.
-- **Update:** the panel checks [`surum.txt`](surum.txt) once a day and offers **Update**. **Save your open CorelDRAW files before updating**: CorelDRAW has to be closed for the installation.
+- **Update:** the panel checks [`surum.txt`](surum.txt) once a day and shows **Download**, which opens this page. **Save your open CorelDRAW files and close CorelDRAW before running the new setup.**
 - **License:** a 7-day trial, then a license key for one computer (send the machine code from Settings to your seller).
 - **Disclaimer:** check every unfold, size, cutting plan and quote yourself before production. No responsibility is accepted for wrong sizes, cuts, material or job losses.
 
