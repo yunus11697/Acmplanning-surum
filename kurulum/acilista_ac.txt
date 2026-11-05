@@ -1,0 +1,26 @@
+ACM Planning - PANELI HER ACILISTA KENDILIGINDEN ACMAK (tek seferlik)
+
+Bazi CorelDRAW kurulumlarinda ACM Planning menude cikmaz ya da panel her acilista
+kaybolur. Asagidaki adimi BIR KEZ yaparsaniz CorelDRAW her acildiginda panel
+kendiliginden acilir; bir daha VBA'ya (Ctrl+G) satir yapistirmaniz gerekmez.
+
+1. CorelDRAW'u acin. Alt+F11 ile VBA editorunu acin.
+2. Soldaki Project listesinde GlobalMacros'u acin:
+   GlobalMacros > CorelDRAW ... Objects > ThisMacroStorage
+   ThisMacroStorage'a cift tiklayin (sagda bos bir kod penceresi acilir).
+3. Asagidaki 4 satiri o pencereye yapistirin:
+
+Private Sub GlobalMacroStorage_Start()
+    On Error Resume Next
+    Application.FrameWork.ShowDocker "ee9bc13a-f160-4e76-a679-048aae5c3650"
+End Sub
+
+4. Ctrl+S ile kaydedin, VBA editorunu kapatin, CorelDRAW'u kapatip yeniden acin.
+
+Kompozit Profil penceresi de her acilista gelsin isterseniz "End Sub" satirindan
+once su satiri da ekleyin:
+    Application.FrameWork.ShowDocker "346ae5d4-6d62-4ca5-9b37-139440f0c929"
+
+Not: ThisMacroStorage'da zaten "Private Sub GlobalMacroStorage_Start()" varsa yeni bir
+tane eklemeyin; ShowDocker satir(lar)ini mevcut olanin icine, End Sub'tan once yazin.
+Geri almak icin bu satirlari silip Ctrl+S yapmaniz yeterli.
