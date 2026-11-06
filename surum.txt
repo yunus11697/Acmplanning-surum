@@ -1,6 +1,6 @@
 # ACM Planning sürüm bilgisi: panel günde bir kez okur. Elle değiştirmeyin; tools/yayinla.sh yazar.
-surum=3.10.2
+surum=3.10.6
 indir=https://github.com/yunus11697/Acmplanning-surum
-sha256=c6c0db7a96cbade8c9537bbf4aced90a35b8e848d649d2c668ad547bc2fccb33
-not=Güncellemeden önce açık dosyalarınızı kaydetme uyarısı (panelde ve kurulumda); kod imzası gelene kadar yeni sürüm bu sayfadan indirilir; çıktıları kullanmadan önce kendiniz kontrol edin.
-tarih=2026-11-05
+sha256=76c1df66a6c7e18ca155fcfde5de02056ebe2559a2c619e2cb69c273c19601a0
+not=Harf, logo ve yazılar çok daha sıkı dizilir (parça içinde parça, ilerleme çubuğu ve Durdur); Kesim'de kroki ve canlı kesim ölçüsü; Tabela gönye, Desen fade, Render fotoğrafı ve Fotoğrafa oturt düzeltmeleri.
+tarih=2026-11-06
