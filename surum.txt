@@ -1,6 +1,6 @@
 # ACM Planning sürüm bilgisi: panel günde bir kez okur. Elle değiştirmeyin; tools/yayinla.sh yazar.
-surum=3.10.8
+surum=3.12.0
 indir=https://github.com/yunus11697/Acmplanning-surum
-sha256=28f194e067d65a45c801a77b0e66ab1ba829fa67c8d6f9eafb64a76a8ff5f62a
-not=Harf, logo ve çerçeveler çok daha doğru dizilir: çerçevenin içine parça girer, yanlış 'kendini kesiyor' uyarısı çıkmaz, levhaya sığmayan parçanın adı ve ölçüsü yazılır; boş stok listesinde en uygun standart levha seçilir.
-tarih=2026-11-12
+sha256=a30608f29c408b6fec8784203c5ca9673b816817ea6a817421309f84b49cb3a9
+not=Yerleşim'de Dizme konumu (dört köşe) ve Dizme yönü (X/Y); gerçek şekil yerleşimi yaklaşık 3 kat hızlı; açılımda V çentik, kulaklı köşe ve büküm çizgisi düzeltmeleri; 3B'de üst üste binen kapak uyarısı ve daha birçok düzeltme.
+tarih=2026-11-13

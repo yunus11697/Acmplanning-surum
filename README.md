@@ -6,12 +6,12 @@
 
 Açılım · Kesim · Yerleşim · 3B · Render · Desen · Kâğıttan oku · Metraj ve teklif
 
-![Sürüm](https://img.shields.io/badge/s%C3%BCr%C3%BCm-3.10.8-1f6feb)
+![Sürüm](https://img.shields.io/badge/s%C3%BCr%C3%BCm-3.12.0-1f6feb)
 ![CorelDRAW](https://img.shields.io/badge/CorelDRAW-2020%20ve%20sonras%C4%B1-2ea043)
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)
 ![Dil](https://img.shields.io/badge/dil-T%C3%BCrk%C3%A7e%20%7C%20English-8250df)
 
-**[⬇️ Son sürümü indir: AcmPlanning_Setup_3.10.8.exe](https://raw.githubusercontent.com/yunus11697/acmplanning-surum/main/kurulum/AcmPlanning_Setup_3.10.8.exe)** <!-- son-kurulum -->
+**[⬇️ Son sürümü indir: AcmPlanning_Setup_3.12.0.exe](https://raw.githubusercontent.com/yunus11697/acmplanning-surum/main/kurulum/AcmPlanning_Setup_3.12.0.exe)** <!-- son-kurulum -->
 
 </div>
 
@@ -106,6 +106,7 @@ Program yeni sürümü kendisi bulur. Panel günde bir kez yalnız bu depodaki [
 ### 🆕 Son sürümler
 
 <!-- yeni-surum: tools/yayinla.sh yeni sürüm satırını bunun altına ekler -->
+- **3.12.0** (2026-11-13): Yerleşim'de Dizme konumu (dört köşe) ve Dizme yönü (X/Y); gerçek şekil yerleşimi yaklaşık 3 kat hızlı; açılımda V çentik, kulaklı köşe ve büküm çizgisi düzeltmeleri; 3B'de üst üste binen kapak uyarısı ve daha birçok düzeltme.
 - **3.10.8** (2026-11-12): Harf, logo ve çerçeveler çok daha doğru dizilir: çerçevenin içine parça girer, yanlış 'kendini kesiyor' uyarısı çıkmaz, levhaya sığmayan parçanın adı ve ölçüsü yazılır; boş stok listesinde en uygun standart levha seçilir.
 - **3.10.6** (2026-11-06): Harf, logo ve yazılar çok daha sıkı dizilir (parça içinde parça, ilerleme çubuğu ve Durdur); Kesim'de kroki ve canlı kesim ölçüsü; Tabela gönye, Desen fade, Render fotoğrafı ve Fotoğrafa oturt düzeltmeleri.
 - **3.10.2** (2026-11-05): Güncellemeden önce açık dosyalarınızı kaydetme uyarısı (panelde ve kurulumda); kod imzası gelene kadar yeni sürüm bu sayfadan indirilir; çıktıları kullanmadan önce kendiniz kontrol edin.
